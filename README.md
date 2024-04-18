@@ -21,4 +21,4 @@ This project consists of two HTML files: `index.html` and `about-me.html`, showc
 2. Open the `index.html` and `about-me.html` files in a web browser to view the web pages.
 3. Explore the content, navigation, and design of each page.
 
-Feel free to reach out if you have any questions or need further assistance with the project. Happy coding! 🚀
+
