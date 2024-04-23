@@ -5,77 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #222;
-            color: #ddd;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #444;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-        }
-        .profile-image {
-            display: block;
-            margin: 0 auto;
-            border-radius: 50%;
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            margin-bottom: 20px;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-        }
-        .project-image {
-            display: block;
-            margin: 0 auto;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
-        }
-        a:link {
-            color: green;
-            background-color: transparent;
-            text-decoration: none;
-          }
-          
-          a:visited {
-            color: pink;
-            background-color: transparent;
-            text-decoration: none;
-          }
-          
-          a:hover {
-            color: red;
-            background-color: transparent;
-            text-decoration: underline;
-          }
-    </style>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <header>
-        <h1>Jazreal Den Mark Estefanio</h1>
-        <p>Web Developer | Software Developer</p>
+        <nav class="navbar">
+            <a href="#" class="logo">My Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        
     </header>
+    <div></div>
+    
     <div class="container">
         <img class="profile-image" src="Pictures/Cartoonify.png" alt="Jazreal Den" height="200px" width="200px">
         <h2><a href="semantic.html" color="white">About Me</a></h2>
+        <h1>Jazreal Den Mark Estefanio</h1>
+        <p>Web Developer | Software Developer</p>
         <p>I am a passionate web developer with a love for learning and creating innovative digital solutions. My skills include HTML, CSS, JavaScript, and more.</p>
         
         <hr/>
 
-        <h2>Skills</h2>
+        <h2 id="skills">Skills</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -96,7 +50,7 @@
         
         <hr/>
 
-        <h2>Contact Me</h2>
+        <h2 id="contact">Contact Me</h2>
         <p>Email: denestefanio@gmail.com</p>
         <p>Phone: 09285618981</p>
     </div>

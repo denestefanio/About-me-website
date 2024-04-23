@@ -5,71 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
-    <style>
-
-        body {
-            background-color: #222;
-            color: #fff;
-            font-family: Arial, sans-serif;
-        }
-        
-        header {
-            background-color: #333;
-            padding: 10px;
-            text-align: center;
-        }
-        
-        main {
-            padding: 20px;
-        }
-        
-        section {
-            margin-bottom: 20px;
-        }
-        
-        h1 {
-            color: #fff;
-        }
-        
-        h2 {
-            color: #fff;
-            border-bottom: 2px solid #fff;
-            padding-bottom: 5px;
-        }
-        
-        
-        a {
-            color: #ff0;
-        }
-        
-        img {
-            max-width: 60px;
-            height: 60px;
-        }
-        
-        form {
-            background-color: #444;
-            padding: 10px;
-        }
-        
-        input[type="text"], input[type="number"], select {
-            width: 100%;
-            padding: 5px;
-            margin-bottom: 10px;
-        }
-        
-        label {
-            color: #fff;
-        }
-        
-        input[type="submit"] {
-            background-color: #ff0;
-            color: #222;
-            padding: 5px 10px;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/semantic.css">
 </head>
 <body>
     <header>
@@ -77,49 +13,54 @@
     </header>
     <main>
         <section>
-            <h2> Education </h2>
+            <h2>I'm Jazreal Den Mark Estefanio</h2>
+            <p>Welcome!</p>
+            <h2>Education</h2>
             <p>On December 27, 2022, I received my Bachelor of Science in Information Technology from ICCT Colleges.</p>
+            <h2>Age</h2>
+            <p>24</p>
+            <h2>Address</h2>
+            <p>Tanay, Rizal</p>
+            <h2>Height</h2>
+            <p>5'8</p>
+            <h2>Weight</h2>
+            <p>79kg</p>
+            <h2>Motto</h2>
+            <p>What is coming is better than what is gone.</p>
         </section>
         <section>
             <h2>Hobbies</h2>
-            <img class="hobby-image" src="Pictures/beatrix.jpg" alt="hobby-image1" height="60px">
-            <p>Playing Mobile Legends is one of my favorite past times. 
-            I can play any role, yet my primary role is Pos 1/Goldlaner.
-            My main hero is Beatrix currently i got 749matches with 61.8% win rate.
-             </p>
-            <img class="hobby-image2" src="Pictures/cook.jpeg" alt="hobby-image2" height="60px">
-            <p>I used to enjoy watching my uncle and aunt cook when I was younger. 
-            They gave me cooking inspiration, and in sixth grade, 
-            I made adobo for the first time. 
-            As I am currently the one who cooks in our home,
-            this has become one of my hobbies.
-            </p>
-
-        <img class="hobby-image" src="Pictures/programmer.jpg" alt="hobby-image3" height="60px">
-        <p>Programming is my hobby because it allows me to unleash my creativity, 
-            solve complex problems, and continuously learn and grow in the 
-            ever-evolving world of technology
-        </p>
+            <div>
+                <img class="hobby-image" src="Pictures/beatrix.jpg" alt="hobby-image1" height="60px">
+                <p>Playing Mobile Legends is one of my favorite past times...</p>
+            </div>
+            <div>
+                <img class="hobby-image" src="Pictures/cook.jpeg" alt="hobby-image2" height="60px">
+                <p>I used to enjoy watching my uncle and aunt cook...</p>
+            </div>
+            <div>
+                <img class="hobby-image" src="Pictures/programmer.jpg" alt="hobby-image3" height="60px">
+                <p>Programming is my hobby because it allows me to unleash my creativity...</p>
+            </div>
         </section>
         <section>
-            <h2>Contact me form</h2>
-            
+            <h2>Contact Me</h2>
             <form>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
+                <input type="text" id="name" name="name" required>
                 <label for="age">Age:</label>
-                <input type="number" id="age" name="age" required><br><br>
+                <input type="number" id="age" name="age" required>
                 <label for="country">Select your country:</label>
                 <select id="country" name="country">
-                    <option value="usa">Philippines</option>
-                    <option value="uk">USA</option>
-                    <option value="canada">Canada</option>
-                </select><br><br>
+                    <option value="ph">Philippines</option>
+                    <option value="us">USA</option>
+                    <option value="ca">Canada</option>
+                </select>
                 <label>Gender:</label>
-                <input type="radio" id="color1" name="color" value="red">
-                <label for="color1">Male</label>
-                <input type="radio" id="color2" name="color" value="blue">
-                <label for="color2">Female</label><br><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
                 <input type="submit" value="Submit">
             </form>
         </section>
